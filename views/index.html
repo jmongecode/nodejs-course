@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@latest/css/pico.classless.min.css"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/"> Home </a></li>
+          <li><a href="admin/users"> Profile </a></li>
+        </ul>
+        <ul>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="contrast">
+                Theme
+              </summary>
+              <ul role="listbox">
+                <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                <li><a href="#" data-theme-switcher="light">Light</a></li>
+                <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Welcome to the home page</h1>
+      <blockquote>
+        "Maecenas vehicula metus tellus, vitae congue turpis hendrerit non. Nam
+        at dui sit amet ipsum cursus ornare."
+        <footer>
+          <cite>- Phasellus eget lacinia</cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        "Maecenas vehicula metus tellus, vitae congue turpis hendrerit non. Nam
+        at dui sit amet ipsum cursus ornare."
+        <footer>
+          <cite>- Phasellus eget lacinia</cite>
+        </footer>
+      </blockquote>
+    </main>
+    <!-- Minimal theme switcher -->
+    <script src="/js/colorTheme.js"></script>
+  </body>
+</html>
